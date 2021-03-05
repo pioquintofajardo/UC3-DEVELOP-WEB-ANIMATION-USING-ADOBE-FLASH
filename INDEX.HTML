@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Materilize CSS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Modal</h2>
+
+        <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+
+        <div class="modal" id="term">
+            <div class="modal-content"></div>
+            <h4>Terms & Condition</h4>
+            <p>Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not
+            available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.</p>
+
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-close btn orange">Agree & Close</a>
+        </div>
+    </div>
+
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--Compiled and minifested-->
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $('.modal').modal();
+        });
+    </script>
+</body>
+
+</html>
